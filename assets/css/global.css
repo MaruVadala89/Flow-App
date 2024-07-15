@@ -902,6 +902,7 @@ img{
 	display: inline-block;
 	font-family: 'Lora', serif;
 	text-transform: lowercase;
+	font-size: 25px;
 }
 
 .sec-title_heading span::before{
