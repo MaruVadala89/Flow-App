@@ -953,6 +953,23 @@ img{
 	margin:0 auto;
 }
 
+.btn-next-slider {
+	position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    padding: 18px 34px;
+    display: inline-block;
+    color: var(--white-color);
+    background-color: var(--main-color);
+}
+
+.btn-next-slider:hover {
+    text-decoration: none;
+    outline: none !important; }
+
 /* Style Two */
 
 .sec-title.style-two .sec-title_title{
