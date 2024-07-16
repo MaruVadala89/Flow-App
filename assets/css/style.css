@@ -5300,6 +5300,9 @@
 	position: relative;
 	margin-top: 30px;
 }
+.justify {
+	text-align: justify;
+}
 
 /***
 
