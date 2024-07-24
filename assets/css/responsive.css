@@ -445,7 +445,7 @@
 	}
 
 	.slider-one .swiper-slide{
-		padding: 100px 0px 150px;
+		padding: 100px 0px 100px;
 	}
 
 	.slider-one_image-column{
@@ -851,7 +851,7 @@
 	.testimonial-two_arrows{
 		position: relative;
 		right: 0px;
-		top: 0px;
+		top: -100px;
 		text-align: center;
 		margin-top: 30px;
 	}

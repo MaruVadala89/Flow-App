@@ -107,6 +107,7 @@
 	position:relative;
 	overflow:hidden;
 	padding:200px 0px 180px;
+	padding-top: 0px;
 }
 
 .slider-one_pattern{
@@ -3724,6 +3725,7 @@
 	right: 15px;
 	top: 100px;
 	z-index: 10;
+	
 }
 
 .testimonial-two_arrows .single-item_carousel-prev,
