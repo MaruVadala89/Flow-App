@@ -109,6 +109,10 @@
 	padding:200px 0px 180px;
 }
 
+.slider-one .slide-button {
+	padding-top: 0;
+}
+
 .slider-one_pattern{
 	position: absolute;
 	left: 0px;
