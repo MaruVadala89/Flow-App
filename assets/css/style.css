@@ -87,10 +87,11 @@
 
 ***/
 
-element.style {
-	height: 64px;
-
-}
+.audiowide-regular {
+	font-family: "Audiowide", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
 
 .slider-one{
 	position:relative;
@@ -350,10 +351,20 @@ element.style {
 
 .slider-one_heading span{
 	position: relative;
-	font-weight: 600;
-	font-style: italic;
-	font-family: 'Lora', serif;
+	font-family: 'Audiowide';
+	font-weight: 50;
+	font-size: clamp(20px, 6vw, 45px);
+
+
 }
+
+/*
+.slider-one_heading span{
+	position: relative;
+	font-weight: 600;
+	font-style: 'italic';
+	font-family: 'Lora', serif;
+} */
 
 .slider-one_heading span::before{
 	position: absolute;
