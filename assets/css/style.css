@@ -87,6 +87,11 @@
 
 ***/
 
+element.style {
+	height: 64px;
+
+}
+
 .slider-one{
 	position:relative;
 }
@@ -587,6 +592,7 @@
 	-webkit-text-fill-color: transparent;
 	--base-gradient: linear-gradient(to right, var(--main-color) 0%, var(--color-five) 100%);
 }
+
 
 /*** 
 
