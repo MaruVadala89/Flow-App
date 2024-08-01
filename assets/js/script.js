@@ -422,47 +422,52 @@
 
 	
 	// Main Slider
-	var slider = new Swiper('.main-slider', {
-		slidesPerView: 1,
-		spaceBetween: 0,
-		loop: true,
-		autoplay: {
-			enabled: false,
-			delay: 6000
-		},
-		// Navigation arrows
-		navigation: {
-			nextEl: '.main-slider-next',
-			prevEl: '.main-slider-prev',
-			clickable: true,
-		},
-		//Pagination
-		pagination: {
-			el: ".swiper-pagination",
-			clickable: true,
-		},
-		speed: 500,
-		breakpoints: {
-			'1600': {
-				slidesPerView: 1,
-			},
-			'1200': {
-				slidesPerView: 1,
-			},
-			'992': {
-				slidesPerView: 1,
-			},
-			'768': {
-				slidesPerView: 1,
-			},
-			'576': {
-				slidesPerView: 1,
-			},
-			'0': {
-				slidesPerView: 1,
-			},
-		},
-	});
+var slider = new Swiper('.main-slider', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+        enabled: false,
+        delay: 6000
+    },
+    // Navigation arrows
+    navigation: {
+        nextEl: '.main-slider-next',
+        prevEl: '.main-slider-prev',
+        clickable: false,
+    },
+    // Pagination
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: false,
+    },
+    speed: 500,
+    allowTouchMove: false, // Desactiva el deslizamiento manual
+    noSwiping: true, // Desactiva el deslizamiento al tocar
+    noSwipingClass: 'swiper-no-swiping', // Clase para desactivar el deslizamiento
+    simulateTouch: false, // Desactiva la simulación de toques
+    breakpoints: {
+        '1600': {
+            slidesPerView: 1,
+        },
+        '1200': {
+            slidesPerView: 1,
+        },
+        '992': {
+            slidesPerView: 1,
+        },
+        '768': {
+            slidesPerView: 1,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+});
+
 
 	
 	// Main Slider Secondary

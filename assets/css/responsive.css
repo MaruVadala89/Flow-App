@@ -102,10 +102,10 @@
 	.order-one_skill-outer{
 		margin-right: 0px;
 	}
-
+	
 	.testimonial-two_arrows{
 		right: 12px;
-	}
+	} 
 
 	.order-one_content-outer,
 	.conversation-one_content-outer,
@@ -848,13 +848,14 @@
 		margin-top: 15px;
 	}
 
+	/*
 	.testimonial-two_arrows{
 		position: relative;
 		right: 0px;
 		top: -100px;
 		text-align: center;
 		margin-top: 30px;
-	}
+	} */
 
 	.news-two_button{
 		margin-top: 25px;
