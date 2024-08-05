@@ -855,6 +855,10 @@ img{
 	height:64px;
 }
 
+.img-logo2 {
+	height:64px;
+}
+
 .main-header .header-lower .logo-box .logo {
 	color: white;
 	display: flex;
@@ -863,6 +867,19 @@ img{
 	gap: 12px;
 	font-size: 24px;
 	font-family: 'Audiowide';
+	padding: 20px;
+}
+
+.footer-logo {
+	color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-family: 'Audiowide';
+	padding: 20px 0px 20px 0px;
+
 }
 
 /*** 
@@ -912,12 +929,10 @@ img{
 
 .sec-title_heading span{
 	position: relative;
-	font-style: italic;
 	display: inline-block;
-	font-family: 'Audiowide';
+	font-family: 'Lora', serif;
 	text-transform: lowercase;
-	font-size: 25px;
-	font-weight: 5;
+	font-style: italic;
 }
 
 .sec-title_heading span::before{
@@ -939,6 +954,7 @@ img{
 	font-size:17px;
 	margin-top:20px;
     color:var(--color-three);
+	margin-bottom: -15px;
 }
 
 .sec-title.light .sec-title_title{

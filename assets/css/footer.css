@@ -8,6 +8,27 @@
 
 ***/
 
+.footer-bottom .inner-container {
+    display: flex;
+    justify-content: space-between; /* Mantiene los elementos espaciados como estaban */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-copyright {
+    font-size: 17px;
+    color: var(--color-three);
+    text-align: center; /* Centra el texto dentro del contenedor */
+    flex: 1; /* Permite que el contenedor ocupe el espacio necesario */
+    order: 1; /* Coloca la sección de copyright en el centro */
+}
+
+.footer-copyright a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
 .main-footer{
 	position:relative;
 	margin-top: -100px;

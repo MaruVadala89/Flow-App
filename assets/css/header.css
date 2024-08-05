@@ -1047,10 +1047,18 @@
 	z-index: 99999999;
 }
 
+
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:20px 20px;
-	text-align:left;	
+	text-align:left;
+	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-family: 'Audiowide';	
 }
 
 .mobile-menu .nav-logo img{

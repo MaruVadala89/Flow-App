@@ -81,11 +81,14 @@
 
 /*** 
 
+
 ====================================================================
 	Main Slider
 ====================================================================
 
 ***/
+
+
 
 .audiowide-regular {
 	font-family: "Audiowide", sans-serif;
@@ -349,22 +352,20 @@
     clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
 }
 
+/*
 .slider-one_heading span{
 	position: relative;
 	font-family: 'Audiowide';
 	font-weight: 50;
 	font-size: clamp(20px, 6vw, 45px);
+*/
 
-
-}
-
-/*
 .slider-one_heading span{
 	position: relative;
 	font-weight: 600;
-	font-style: 'italic';
+	font-style: italic;
 	font-family: 'Lora', serif;
-} */
+} 
 
 .slider-one_heading span::before{
 	position: absolute;
