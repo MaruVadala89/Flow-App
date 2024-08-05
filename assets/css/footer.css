@@ -8,26 +8,51 @@
 
 ***/
 
-.footer-bottom .inner-container {
+.footer-bottom {
+    position: relative;
+    background-color: var(--color-seven);
+}
+
+.auto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-content {
     display: flex;
-    justify-content: space-between; /* Mantiene los elementos espaciados como estaban */
-    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+}
+
+.footer-logo {
+    text-align: left;
 }
 
 .footer-copyright {
-    font-size: 17px;
-    color: var(--color-three);
-    text-align: center; /* Centra el texto dentro del contenedor */
-    flex: 1; /* Permite que el contenedor ocupe el espacio necesario */
-    order: 1; /* Coloca la sección de copyright en el centro */
+    text-align: center;
 }
 
-.footer-copyright a {
-    color: var(--main-color);
-    text-decoration: none;
+@media (max-width: 850px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+		
+    }
+
+    .footer-logo {
+        flex: none;
+		padding: 10px;
+		
+    }
+
+	.footer-copyright{
+		margin-bottom: 20px;
+	}
 }
+
 
 .main-footer{
 	position:relative;
