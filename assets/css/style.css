@@ -474,6 +474,10 @@
 	position: relative;
 }
 
+.image-slider {
+	border-radius: 8px;
+}
+
 .slider-one_image-outer{
 	position: relative;
 	padding-bottom: 75px;
