@@ -2108,6 +2108,9 @@
 	transition:all 500ms ease;
 	background-color: var(--main-color);
 	font-family: 'Font Awesome 6 Free';
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
 }
 
 .accordion-box_two .block .acc-btn.active {
