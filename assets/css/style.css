@@ -88,6 +88,44 @@
 
 ***/
 
+.sec-title_heading2 {
+	color: var(--white-color);
+	font-weight: 600;
+	line-height: 58px;
+	font-size: 40px;
+	margin: 0px;
+	background: none;
+	margin-top: 15px;
+	font-family: 'Inter', sans-serif;
+}
+
+.sec-title_heading2 {
+	font-size: calc(1.325rem + .9vw);
+}
+
+.sec-title_heading2 span {
+	position: relative;
+	display: inline-block;
+	font-family: 'Lora', serif;
+	text-transform: lowercase;
+    font-style: italic;
+	color: var(--main-color);
+}
+
+/*@media only screen and (max-width: 750px){ 
+	.sec-title_heading2 {
+		line-height: 48px;
+		font-size: 25px;
+	}
+}*/
+
+@media only screen and (max-width: 1240px){ 
+	.sec-title_heading2 {
+		line-height: 54px;
+        font-size: 28px;
+	}
+}
+
 
 
 .audiowide-regular {
@@ -3802,7 +3840,7 @@
 
 .testimonial-two_arrows {
     position: absolute; 
-    top: 150px; 
+    top: 120px; 
     transform: translateY(-50%); 
     z-index: 10;
     width: 100%; 
@@ -3827,11 +3865,12 @@
 }
 
 .testimonial-two_arrows .single-item_carousel-prev {
-    margin-left: 15px; 
+    margin-left: 25px; 
 }
 
 .testimonial-two_arrows .single-item_carousel-next {
-    margin-right: 15px; 
+    margin-right: 25px; 
+	
 }
 
 .testimonial-two_arrows .single-item_carousel-prev:hover,
@@ -3849,6 +3888,65 @@
         transform: translateX(-50%);
     }
 }
+ 
+/*
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-two_arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.slider-one2 {
+    position: relative;
+}
+
+.slider-one2 .testimonial-two_arrows {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.testimonial-two_arrows .single-item_carousel-prev,
+.testimonial-two_arrows .single-item_carousel-next {
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 54px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: inline-block;
+    color: var(--white-color);
+    transition: all 300ms ease;
+    border: 1px solid var(--main-color);
+    pointer-events: all; 
+}
+
+.testimonial-two_arrows .single-item_carousel-prev:hover,
+.testimonial-two_arrows .single-item_carousel-next:hover {
+    color: var(--white-color);
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+}
+
+@media only screen and (max-width: 599px) {
+    .testimonial-two_arrows {
+        top: auto;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+*/
 
 
 /*** 
