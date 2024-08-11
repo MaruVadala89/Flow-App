@@ -294,10 +294,12 @@
 
 	.accordion-box_two .block .acc-btn{
 		font-size: 18px;
+		line-height: 2.5;
 	}
 
 	.accordion-box_two .block .acc-btn{
 		padding: 22px 25px 22px 80px;
+	
 	}
 
 	.accordion-box_two .block .icon-outer{

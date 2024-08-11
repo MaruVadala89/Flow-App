@@ -91,7 +91,7 @@
 .sec-title_heading2 {
 	color: var(--white-color);
 	font-weight: 600;
-	line-height: 58px;
+	line-height: 55px;
 	font-size: 40px;
 	margin: 0px;
 	background: none;
@@ -121,7 +121,7 @@
 
 @media only screen and (max-width: 1240px){ 
 	.sec-title_heading2 {
-		line-height: 54px;
+		line-height: 40px;
         font-size: 28px;
 	}
 }
@@ -2134,10 +2134,9 @@
 .accordion-box_two .block .icon-outer .icon{
     position: absolute;
     left:0px;
-	width: 34px;
-	height: 34px;
-	line-height: 30px;
-	border-radius: 50px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
     color: var(--white-color);
 	-webkit-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
@@ -2146,10 +2145,22 @@
 	transition:all 500ms ease;
 	background-color: var(--main-color);
 	font-family: 'Font Awesome 6 Free';
-	display: flex;
-	justify-content: center;
 	font-weight: bold;
+	display: flex;
+    align-items: center; 
+    justify-content: center; 
+
 }
+
+.accordion-box_two .block .acc-btn{
+    display: flex;
+	align-items: center;
+    position: relative;
+    
+}
+
+
+
 
 .accordion-box_two .block .acc-btn.active {
 	
@@ -3040,7 +3051,6 @@
 
 .livechat_content-outer{
 	position: relative;
-	padding-top: 40px;
 	padding-left: 40px;
 }
 
