@@ -3063,6 +3063,13 @@
 	text-transform: uppercase;
 }
 
+.text-about {
+	text-align: justify;
+	hyphens: auto;
+	word-spacing: -2px;
+	line-height: 1.5;
+}
+
 /* LiveChat List */
 
 .livechat-list{
