@@ -1410,7 +1410,7 @@
 .testimonial-block_one-text{
 	position: relative;
 	margin-top: 25px;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 32px;
 	color: var(--color-six);
 }
@@ -1446,6 +1446,11 @@
 	font-size: 16px;
 	margin-top: 6px;
 	color: var(--color-six);
+}
+
+.box-testimonio {
+	margin-top: 35px;
+
 }
 
 .testimonial-one .three-item_carousel-pagination{
@@ -2146,10 +2151,11 @@
 	background-color: var(--main-color);
 	font-family: 'Font Awesome 6 Free';
 	font-weight: bold;
-	display: flex;
-    align-items: center; 
+	display: flex; 
     justify-content: center; 
-
+    align-items: center; 
+	padding-bottom: 5px;
+	padding-left: 1px;
 }
 
 .accordion-box_two .block .acc-btn{
@@ -3068,6 +3074,10 @@
 	hyphens: auto;
 	word-spacing: -2px;
 	line-height: 1.5;
+}
+
+.signomas {
+	
 }
 
 /* LiveChat List */
