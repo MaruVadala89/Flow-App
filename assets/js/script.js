@@ -565,21 +565,21 @@ var slider = new Swiper('.main-slider', {
 	var slider = new Swiper('.three-item_carousel', {
 		slidesPerView: 3,
 		spaceBetween: 30,
-		loop: true,
+		loop: false,
 		autoplay: {
-			enabled: true,
+			enabled: false,
 			delay: 6000
 		},
 		// Navigation arrows
 		navigation: {
 			nextEl: '.three-item_carousel-next',
 			prevEl: '.three-item_carousel-prev',
-			clickable: true,
+			clickable: false,
 		},
 		//Pagination
 		pagination: {
 			el: ".three-item_carousel-pagination",
-			clickable: true,
+			clickable: false,
 		},
 		speed: 500,
 		breakpoints: {
