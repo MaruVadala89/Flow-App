@@ -3007,7 +3007,7 @@
 
 .livechat{
 	position: relative;
-	padding: 0px 0px 90px;
+	padding: 50px 0px 90px;
 }
 
 .livechat_image-column{
@@ -3054,6 +3054,7 @@
 .livechat_content-column{
 	position: relative;
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 .livechat_content-outer{
@@ -4132,7 +4133,7 @@
 
 .price-two{
 	position: relative;
-	padding: 100px 0px 70px;
+	padding: 0px 0px 70px;
 }
 
 .price-two.style-two .pricing-tabs .buttons-outer{
@@ -5115,8 +5116,6 @@
 	font-size: 17px;
 	display: flex;
 	gap: 12px;
-	align-items: center;
-    justify-content: center;
 	margin-bottom: 20px;
 	color: var(--color-six);
 	transition:all 500ms ease;
