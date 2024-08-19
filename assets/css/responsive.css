@@ -161,6 +161,14 @@
   		line-height: 28px;
 	}
 
+	.testimonial-short {
+		margin-top: 20px; /* Ajusta este valor según necesites */
+	}
+	
+	.testimonial-long {
+		margin-top: 20px; /* Ajusta este valor según necesites */
+	}
+
 	.testimonial-block_two-content-outer{
 		padding-left: 0px;
 	}

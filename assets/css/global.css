@@ -897,7 +897,7 @@ img{
 .sec-title{
 	position:relative;
     z-index: 2;
-	margin-bottom:40px;
+	margin-bottom:70px;
 }
 
 .sec-title_icon{
@@ -1023,8 +1023,8 @@ img{
 	left: 0px;
 	top: 0px;
 	right: 0px;
-	bottom: 0px;
-	opacity: 0.10;
+	bottom: 15px;
+	opacity: 0.30;
 	border-radius: 5px;
 	background: var(--main-color);
     background: linear-gradient(to bottom, var(--main-color) 0%, var(--color-five) 100%);

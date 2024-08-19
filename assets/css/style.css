@@ -1422,7 +1422,6 @@
 
 .testimonial-block_one-author_box{
 	position: relative;
-	margin-top: 40px;
 	font-size: 20px;
 	padding-top: 7px;
 	align-items: center;
@@ -1483,6 +1482,15 @@
 	border-color:var(--main-color);
 	background-color: rgba(var(--main-color-rgb), 1);
 }
+
+.testimonial-short {
+    margin-top: 60px; /* Ajusta este valor según necesites */
+}
+
+.testimonial-long {
+    margin-top: 30px; /* Ajusta este valor según necesites */
+}
+
 
 /*** 
 
@@ -3470,13 +3478,15 @@
 	position: relative;
 	overflow: hidden;
 	border-radius: 10px;
-	padding: 100px 160px 100px;
+	padding: 100px 4px 100px;
 	background-color: var(--main-color);
 }
 
 .clients-one .inner-container .sec-title_heading span{
 	text-transform: capitalize;
 }
+
+
 
 .clients-one .clients-box_one{
 	position: relative;
@@ -3521,6 +3531,10 @@
 	display: inline-block;
 	background: rgba(var(--white-color-rgb), 0.10);
 }
+
+
+
+
 
 /*** 
 
