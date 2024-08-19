@@ -514,6 +514,41 @@ var slider = new Swiper('.main-slider', {
 		},
 	});
 
+	//chatbot
+
+	document.addEventListener('DOMContentLoaded', function() {
+		// Abrir automáticamente la conversación después de 3 segundos
+		setTimeout(function() {
+		  var chatContainer = document.getElementById('chat-container');
+		  chatContainer.style.display = 'block';
+		  setTimeout(function() {
+			chatContainer.style.transform = 'scale(1)';
+		  }, 10);
+		  document.getElementById('chat-bubble').style.display = 'none';
+		}, 3000); // 3 segundos
+	
+		// Mostrar el chat cuando se hace clic en el chat-bubble
+		document.getElementById('chat-bubble').addEventListener('click', function() {
+		  var chatContainer = document.getElementById('chat-container');
+		  chatContainer.style.display = 'block';
+		  setTimeout(function() {
+			chatContainer.style.transform = 'scale(1)';
+		  }, 10);
+		  this.style.display = 'none';
+		});
+	
+		// Cerrar el chat cuando se hace clic en el botón de cerrar
+		document.getElementById('close-btn').addEventListener('click', function() {
+		  var chatContainer = document.getElementById('chat-container');
+		  var chatBubble = document.getElementById('chat-bubble');
+		  chatContainer.style.transform = 'scale(0)';
+		  setTimeout(function() {
+			chatContainer.style.display = 'none';
+			chatBubble.style.display = 'block';
+		  }, 500);
+		});
+	  });
+
 
 	// Single One Slider
 	var slider = new Swiper('.single-item_carousel', {
