@@ -855,9 +855,10 @@ img{
 }
 
 .img-logo {
-	filter: brightness(64);
 	height:64px;
 }
+
+/*filter: brightness(64);*/
 
 .img-logo2 {
 	height:64px;

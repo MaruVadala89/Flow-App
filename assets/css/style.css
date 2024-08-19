@@ -1764,6 +1764,31 @@
 	color:#ffffff;
 }
 
+@media only screen and (max-width: 1200px) {
+    .pricing-tabs .tab-buttons {
+        width: 100%; 
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+
+    .pricing-tabs .tab-buttons .tab-btn {
+        flex: 1 1 auto; 
+        margin: 5px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pricing-tabs .tab-buttons {
+        font-size: 14px; 
+    }
+
+    .pricing-tabs .tab-buttons .tab-btn {
+        padding: 10px; 
+    }
+}
+
+
 .pricing-tabs .tabs-content{
 	position: relative;
 	margin-top: 40px;
