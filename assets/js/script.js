@@ -514,7 +514,7 @@ var slider = new Swiper('.main-slider', {
 		},
 	});
 
-	//chatbot
+	// CHATBOT
 
 	document.addEventListener('DOMContentLoaded', function() {
 		// Abrir automáticamente la conversación después de 3 segundos
