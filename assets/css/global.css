@@ -254,7 +254,6 @@ body {
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
   animation: letters-loading 4s infinite;
   content: attr(data-text-preloader);
-  text-transform:capitalize;
   left: 0;
   opacity: 0;
   top:0;
@@ -264,7 +263,7 @@ body {
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
   font-weight: 500;
-  letter-spacing: 15px;
+  /*letter-spacing: 15px;*/
   display: inline-block;
   position: relative;
   font-size: 70px;
@@ -297,11 +296,12 @@ body {
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
-  
+  font-family: "Audiowide", sans-serif;
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
-  color: #fff;
+	font-family: "Audiowide", sans-serif;
+	color: #fff;
 }
 
 .handle-preloader .animation-preloader .spinner{
