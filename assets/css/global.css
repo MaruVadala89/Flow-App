@@ -871,8 +871,7 @@ img{
 	align-items: center;
 	gap: 12px;
 	font-size: 24px;
-	font-family: 'Audiowide';
-	padding: 20px;
+	font-family: 'Audiowide', sans-serif;
 }
 
 .footer-logo {

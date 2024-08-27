@@ -134,6 +134,13 @@
 		});
 
 		//Menu Toggle Btn
+		$('.main-header .mobile-menu .navigation li').on('click', function() {
+				$('body').removeClass('mobile-menu-visible');
+			$('.mobile-menu .navigation > li').removeClass('open');
+			$('.mobile-menu .navigation li ul').slideUp(0);
+		});
+
+		//Menu Toggle Btn
 		$('.mobile-menu .menu-backdrop,.mobile-menu .close-btn').on('click', function() {
 			$('body').removeClass('mobile-menu-visible');
 			$('.mobile-menu .navigation > li').removeClass('open');
@@ -889,6 +896,11 @@ var slider = new Swiper('.main-slider', {
 
 	///////////////////////////////////////////////////// 
     // Title Animation
+
+	gsap.config({
+		nullTargetWarn: false,
+	});
+
     let splitTitleLines = gsap.utils.toArray(".title-anim");
 
     splitTitleLines.forEach(splitTextLine => {
@@ -900,6 +912,7 @@ var slider = new Swiper('.main-slider', {
           scrub: false,
           markers: false,
           toggleActions: 'play none none none'
+
         }
       });
 

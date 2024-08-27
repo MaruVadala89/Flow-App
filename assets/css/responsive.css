@@ -157,8 +157,8 @@
 	}
 
 	.testimonial-block_one-text{
-		font-size: 18px;
-  		line-height: 28px;
+		font-size: 16px;
+  		line-height: 1.5;
 	}
 
 	.testimonial-short {
@@ -460,6 +460,7 @@
 
 	.slider-one_image-column{
 		margin-top: 40px;
+		display: none;
 	}
 
 	.faq-phone_box{
@@ -994,11 +995,6 @@
 	.answer-search_box{
 		margin-right: 0px;
 	}
-
-	.testimonial-block_one-text{
-		font-size: 16px;
-		line-height: 26px;
-  	}
 
 	.testimonial-block_one-author_box{
 		padding: 0px;
