@@ -1051,14 +1051,12 @@
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:20px 20px;
-	text-align:left;
-	
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 12px;
     font-size: 24px;
-    font-family: 'Audiowide';	
+    font-family: 'Audiowide', sans-serif;
 }
 
 .mobile-menu .nav-logo img{

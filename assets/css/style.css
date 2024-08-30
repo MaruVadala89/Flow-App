@@ -2244,7 +2244,7 @@
 	cursor:pointer;
 	font-size:22px;
 	font-weight:600;
-	line-height:30px;
+	line-height: 1.5 !important;
 	color: var(--white-color);
 	padding: 30px 35px 30px 80px;
 	transition:all 500ms ease;
@@ -3149,23 +3149,12 @@
 .livechat_image-column{
 	position: relative;
 	margin-bottom: 30px;
+	max-width: 90vw;
 }
 
 .livechat_image-outer{
 	position: relative;
 	text-align: center;
-}
-
-.livechat_image-outer::before{
-	position: absolute;
-	content: '';
-	left: -10px;
-	bottom: 0px;
-	right: 0px;
-	height: 100px;
-	z-index: 1;
-	background: rgba(var(--color-two-rgb), 1);
-	background: linear-gradient(to top, rgba(var(--color-two-rgb), 1) 0%, rgba(255,255,255,0) 100%);
 }
 
 .livechat .livechat-layer{
@@ -3190,7 +3179,6 @@
 .livechat_content-column{
 	position: relative;
 	margin-bottom: 30px;
-	margin-top: 50px;
 }
 
 .livechat_content-outer{
@@ -3222,6 +3210,7 @@
 
 .livechat-list{
 	position: relative;
+	background-color: rgba(32, 32, 32, 0.67) !important;
 }
 
 .livechat-list li{
@@ -5086,7 +5075,7 @@
 .price-block_two-inner{
 	position: relative;
 	border-radius: 8px;
-	text-align: center;
+	text-align: left;
 	padding: 35px 35px 40px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
